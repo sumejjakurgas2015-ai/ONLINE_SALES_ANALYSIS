@@ -25,3 +25,13 @@ manager.remove_product("Mouse")
 
 print("\nLista nakon uklanjanja:")
 manager.show_products()
+from cart import Cart
+cart = Cart()
+
+# dodaj 3 proizvoda iz manager liste
+cart.add_to_cart(p1)
+cart.add_to_cart(p2)
+cart.add_to_cart(p3)
+
+cart.show_cart()
+print("\nUkupno za naplatu:", cart.total_cart_value())
