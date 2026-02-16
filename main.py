@@ -20,3 +20,8 @@ manager.show_products()
 # Ukupna vrijednost inventara
 print("\nUkupna vrijednost inventara:")
 print(manager.total_inventory_value())
+print("\nRemoving Mouse...")
+manager.remove_product("Mouse")
+
+print("\nLista nakon uklanjanja:")
+manager.show_products()
