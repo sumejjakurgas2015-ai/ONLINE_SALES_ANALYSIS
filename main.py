@@ -18,8 +18,8 @@ print("=== Lista proizvoda ===")
 manager.show_products()
 
 # Ukupna vrijednost inventara
-print("\nUkupna vrijednost inventara:")
-print(manager.total_inventory_value())
+p1 = Product("Laptop", 1500, 3)
+
 print("\nRemoving Mouse...")
 manager.remove_product("Mouse")
 
