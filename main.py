@@ -5,7 +5,7 @@ from product_manager import ProductManager
 manager = ProductManager()
 
 # Dodajemo proizvode
-p1 = Product("Laptop BASIC", 900, 7)
+p1 = Product("Laptop", 1200, 5)
 p2 = Product("Mouse", 25, 20)
 p3 = Product("Keyboard", 80, 10)
 
